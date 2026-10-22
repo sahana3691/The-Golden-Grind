@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse coffee, cold drinks, and cafe treats at The Golden Grind.">
+    <title>Menu | The Golden Grind</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sections/navbar.css">
+</head>
+<body>
+    <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html" aria-label="The Golden Grind home">
+            <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M10 20h23v9a10 10 0 0 1-10 10h-3a10 10 0 0 1-10-10v-9Z"/><path d="M33 23h3a5 5 0 0 1 0 10h-5M16 14c-2-2 2-3 0-6m9 6c-2-2 2-3 0-6"/><path d="M8 42h31"/></svg>
+            <span>The Golden Grind</span>
+        </a>
+        <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html" aria-current="page">Menu</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </nav>
+    <main>
+        <header class="page-banner"><div class="section-shell"><p class="eyebrow">Made to be enjoyed</p><h1>Something good is brewing</h1><p>Find a familiar favorite or try something new for your next coffee break.</p></div></header>
+        <section class="menu-page" id="full-menu"><div class="section-shell">
+            <section class="menu-category" aria-labelledby="coffee-heading"><h2 class="category-title" id="coffee-heading">Coffee &amp; Espresso</h2><div class="menu-grid">
+                <article class="menu-card"><img src="photos/classic coffee.jpg" alt="Classic hot coffee" loading="lazy"><div class="menu-card-copy"><h3>Classic Coffee</h3><p>Rich, smooth, and comforting, brewed for an easy everyday cup.</p><span class="price">&#8377;120</span></div></article>
+                <article class="menu-card"><img src="photos/Expresso.jpg" alt="A freshly pulled espresso" loading="lazy"><div class="menu-card-copy"><h3>Espresso</h3><p>A concentrated shot with a deep aroma and a smooth, bold finish.</p><span class="price">&#8377;100</span></div></article>
+                <article class="menu-card"><img src="photos/cappacinno.jpg" alt="A warm cappuccino" loading="lazy"><div class="menu-card-copy"><h3>Cappuccino</h3><p>Espresso balanced with steamed milk and a generous layer of foam.</p><span class="price">&#8377;150</span></div></article>
+                <article class="menu-card"><img src="photos/cafe latte.jpg" alt="A creamy cafe latte" loading="lazy"><div class="menu-card-copy"><h3>Cafe Latte</h3><p>Espresso mellowed with steamed milk for a smooth, creamy cup.</p><span class="price">&#8377;160</span></div></article>
+                <article class="menu-card"><img src="photos/mocha.jpg" alt="A rich chocolate mocha" loading="lazy"><div class="menu-card-copy"><h3>Mocha</h3><p>Espresso and chocolate blended with steamed milk for a cozy treat.</p><span class="price">&#8377;180</span></div></article>
+            </div></section>
+            <section class="menu-category" aria-labelledby="cold-heading"><h2 class="category-title" id="cold-heading">Cold Drinks</h2><div class="menu-grid">
+                <article class="menu-card"><img src="photos/iced latte.jpg" alt="Iced latte served cold" loading="lazy"><div class="menu-card-copy"><h3>Iced Latte</h3><p>Cool, creamy coffee poured over ice for a refreshing break.</p><span class="price">&#8377;160</span></div></article>
+                <article class="menu-card"><img src="photos/cold coffee.jpg" alt="Chilled cold coffee" loading="lazy"><div class="menu-card-copy"><h3>Cold Coffee</h3><p>Chilled coffee blended with milk for a smooth, refreshing sip.</p><span class="price">&#8377;170</span></div></article>
+            </div></section>
+            <section class="menu-category" aria-labelledby="bakes-heading"><h2 class="category-title" id="bakes-heading">Bakes &amp; Treats</h2><div class="menu-grid">
+                <article class="menu-card"><img src="photos/cake.jpg" alt="Chocolate cake with a rich finish" loading="lazy"><div class="menu-card-copy"><h3>Chocolate Cake</h3><p>Soft, chocolatey cake made for a well-earned treat.</p><span class="price">&#8377;299</span></div></article>
+                <article class="menu-card"><img src="photos/chocalate slice.jpg" alt="A slice of chocolate cake" loading="lazy"><div class="menu-card-copy"><h3>Chocolate Cake Slice</h3><p>A sweet slice to enjoy alongside your favorite coffee.</p><span class="price">&#8377;150</span></div></article>
+            </div></section>
+            <p class="menu-note">Additional menu items and prices are sample suggestions. Confirm them before publishing.</p>
+        </div></section>
+    </main>
+    <footer class="site-footer"><p>© <span data-year></span> The Golden Grind · Made for good moments</p></footer>
+    <script src="scrip.js"></script>
+</body>
+</html>
